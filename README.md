@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="" alt="Chat with PDF Workflow" width="80%">
+</p>
 
 # ✨ Chat with Your PDFs - AI-Powered Document Question Answering System
 
