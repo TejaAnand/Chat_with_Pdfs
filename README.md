@@ -13,7 +13,8 @@ Built using:
 🐍 Python + Google Colab for easy, no-setup usage
 Whether you're a student cramming for exams, a researcher scanning papers, or just someone with a lot of PDFs — this project helps you instantly understand and query your files.
 
-🎯 Features
+🎯 Features:
+
 ✅ Upload multiple PDF files at once
 ✅ Automatically reads and processes all content
 ✅ Splits text intelligently for better context
@@ -23,12 +24,15 @@ Whether you're a student cramming for exams, a researcher scanning papers, or ju
 ✅ Fully runs in Google Colab — no local install needed
 ✅ Clean, ready-to-use Python code and GitHub structure
 
-🧪 Example Use Cases
+🧪 Example Use Cases:
+
 👨‍🎓 Students: Ask questions across multiple lecture notes
 🧑‍💼 Professionals: Extract insights from company reports
 📊 Researchers: Read multiple papers and query for summaries
 ⚖️ Lawyers: Scan legal documents and find case details
-📦 Technologies Used
+
+📦 Technologies Used:
+
 🧰 Stack	Details
 AI Backend	Google Gemini API (LLM + Embeds)
 Framework	LangChain
@@ -38,7 +42,8 @@ Platform	Google Colab
 🔐 API Key Notice
 Paste your free Gemini API key directly in the code or securely at runtime. No Pro account required!
 
-👇 How to Use (in Colab)
+👇 How to Use (in Colab):
+
 Clone this repo or download the ZIP
 Open app.py in Google Colab
 Install dependencies (1 line!)
