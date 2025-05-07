@@ -1,90 +1,77 @@
-✨ Chat with Your PDFs using Gemini AI + LangChain 🚀
+<p align="center">
+  <img src="https://your-banner-url.com/banner.png" alt="Chat with Your PDFs - Banner" style="width:80%;"/>
+</p>
 
+<h1 align="center">🤖 Chat with Your PDFs</h1>
 
-🧠📄 Upload PDFs → Ask Questions → Get Smart Answers with AI
-Your documents just got intelligent!
+<p align="center">
+  AI-Powered PDF Question Answering System using Google Gemini + LangChain
+</p>
 
-📚 What is this project?
+<p align="center">
+  <a href="https://colab.research.google.com/">
+    <img alt="Colab Ready" src="https://img.shields.io/badge/Open%20in-Google%20Colab-orange?logo=googlecolab">
+  </a>
+  <a href="https://github.com/TejaAnand/pdf-chat-gemini/blob/main/LICENSE">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-blue.svg" />
+  </a>
+  <img alt="Repo Size" src="https://img.shields.io/github/repo-size/TejaAnand/pdf-chat-gemini" />
+  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/TejaAnand/pdf-chat-gemini" />
+  <img alt="Stars" src="https://img.shields.io/github/stars/TejaAnand/pdf-chat-gemini?style=social" />
+</p>
 
-This is a Colab-based AI tool that lets you upload multiple PDFs and ask questions about their contents — just like you're chatting with a human expert who read them all!
+---
+# 🤖 Chat with Your PDFs - AI-Powered Document Question Answering System
 
+The **Chat with Your PDFs** project is an intelligent Colab-based tool that lets you interact with the contents of multiple PDFs using AI. Powered by **Google Gemini** and **LangChain**, this tool allows you to ask natural language questions about your uploaded files and receive relevant, AI-generated answers instantly!
 
-Built using:
+---
 
+It uses:
+- ✂️ Smart text splitting for large PDF content
+- 🧠 Semantic embedding with Google Gemini Embeddings
+- 🔍 ChromaDB for vector-based similarity search
+- 💬 Natural language understanding with Gemini (free tier)
+- ⚙️ Simple Python code in a Google Colab notebook
 
-  🤖 Google Gemini API (free tier supported)
+---
 
-  🧱 LangChain for chaining AI tasks
+## ⚡ Features
 
-  📊 ChromaDB for embedding-powered vector search
+- Upload and process **multiple PDFs**  
+- Ask questions like:  
+  - "What is the summary of this file?"  
+  - "List the main points in this document"  
+  - "What does the second chapter talk about?"  
+- AI pulls the most relevant chunks from your content  
+- Answers delivered in real-time using Gemini AI  
+- No installation needed — just run in Google Colab!
 
-  🐍 Python + Google Colab for easy, no-setup usage
+---
 
-Whether you're a student cramming for exams, a researcher scanning papers, or just someone with a lot of PDFs — this project helps you instantly understand and query your files.
+## 🧰 Hardware Requirements
 
+- ✅ Google Colab or any browser  
+- ✅ Gemini API key (free from [Google AI Studio](https://aistudio.google.com/app/apikey))
 
-🎯 Features:
+---
 
+## 💻 Software Requirements
 
-  ✅ Upload multiple PDF files at once
+- Python 3  
+- Required libraries listed in `requirements.txt`:
+  - PyPDF2  
+  - langchain  
+  - chromadb  
+  - google-generativeai  
+  - langchain-google-genai
 
-  ✅ Automatically reads and processes all content
+---
 
-  ✅ Splits text intelligently for better context
+## 🔧 How to Run (Google Colab)
 
-  ✅ Embeds content using Gemini embeddings
+1. Open `app.py` in Google Colab  
+2. Install dependencies with:  
+   ```python
+   !pip install -r requirements.txt
 
-  ✅ Performs semantic search to find the best answers
-
-  ✅ Powered by Google Gemini’s free model
-
-  ✅ Fully runs in Google Colab — no local install needed
-
-  ✅ Clean, ready-to-use Python code and GitHub structure
-
-
-🧪 Example Use Cases:
-
-
-  👨‍🎓 Students: Ask questions across multiple lecture notes
-
-  🧑‍💼 Professionals: Extract insights from company reports
-
-  📊 Researchers: Read multiple papers and query for summaries
-
-  ⚖️ Lawyers: Scan legal documents and find case details
-
-
-📦 Technologies Used:
-
-
-
-  AI Backend	Google Gemini API (LLM + Embeds)
-
-  Framework	LangChain
-
-  Vector Store	Chroma
-
-  File Handling	PyPDF2
-
-  Platform	Google Colab
-
-  🔐 API Key Notice
-
-Paste your free Gemini API key directly in the code or securely at runtime. No Pro account required!
-
-
-👇 How to Use (in Colab):
-
-
-  Clone this repo or download the ZIP
-
-  Open app.py in Google Colab
-
-  Install dependencies (1 line!)
-
-  Paste your API key
-
-  Upload your PDFs
-
-Ask questions and get answers instantly!
