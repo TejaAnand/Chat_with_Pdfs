@@ -1,12 +1,16 @@
 ✨ Chat with Your PDFs using Gemini AI + LangChain 🚀
 
+
 🧠📄 Upload PDFs → Ask Questions → Get Smart Answers with AI
 Your documents just got intelligent!
 
 📚 What is this project?
+
 This is a Colab-based AI tool that lets you upload multiple PDFs and ask questions about their contents — just like you're chatting with a human expert who read them all!
 
+
 Built using:
+
 
 🤖 Google Gemini API (free tier supported)
 
@@ -18,7 +22,9 @@ Built using:
 
 Whether you're a student cramming for exams, a researcher scanning papers, or just someone with a lot of PDFs — this project helps you instantly understand and query your files.
 
+
 🎯 Features:
+
 
 ✅ Upload multiple PDF files at once
 
@@ -36,7 +42,9 @@ Whether you're a student cramming for exams, a researcher scanning papers, or ju
 
 ✅ Clean, ready-to-use Python code and GitHub structure
 
+
 🧪 Example Use Cases:
+
 
 👨‍🎓 Students: Ask questions across multiple lecture notes
 
@@ -46,7 +54,9 @@ Whether you're a student cramming for exams, a researcher scanning papers, or ju
 
 ⚖️ Lawyers: Scan legal documents and find case details
 
+
 📦 Technologies Used:
+
 
 🧰 Stack	Details
 
@@ -64,7 +74,9 @@ Platform	Google Colab
 
 Paste your free Gemini API key directly in the code or securely at runtime. No Pro account required!
 
+
 👇 How to Use (in Colab):
+
 
 Clone this repo or download the ZIP
 
