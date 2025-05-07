@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="" alt="Chat with PDF Workflow" width="80%">
+  <img src="https://github.com/TejaAnand/Chat_with_Pdfs/blob/main/Chat_with_Pdfs.png" alt="Chat with PDF Workflow" width="80%">
 </p>
 
 # ✨ Chat with Your PDFs - AI-Powered Document Question Answering System
