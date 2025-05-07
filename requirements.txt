@@ -1,0 +1,6 @@
+
+PyPDF2
+langchain==0.1.14
+chromadb
+google-generativeai
+langchain-google-genai
