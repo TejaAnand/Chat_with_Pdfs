@@ -1,5 +1,5 @@
 
-# 🤖 Chat with Your PDFs - AI-Powered Document Question Answering System
+# ✨ Chat with Your PDFs - AI-Powered Document Question Answering System
 
 The **Chat with Your PDFs** project is an intelligent Colab-based tool that lets you interact with the contents of multiple PDFs using AI. Powered by **Google Gemini** and **LangChain**, this tool allows you to ask natural language questions about your uploaded files and receive relevant, AI-generated answers instantly!
 
