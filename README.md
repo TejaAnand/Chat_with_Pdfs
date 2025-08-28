@@ -30,7 +30,7 @@ It uses:
 
 ---
 
-## 🧰 Hardware Requirements
+## Required Tools
 
 - ✅ Google Colab or any browser  
 - ✅ Gemini API key (free from [Google AI Studio](https://aistudio.google.com/app/apikey))
